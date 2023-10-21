@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/eca7fb4794.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../dist/output.css">
+  <title>Event-app</title>
+</head>
+<body class="bg-gray-200">
+  <header class = "px-8 py-2 h-16 w-full z-10 bg-white flex justify-between items-center fixed top-0">
+    <figure class="pt-4">
+      <img src="./logo.png" alt="">
+    </figure>
+    <p class="text-gray-400 pt-2">ログアウト</p>
+  </header>
+
+  <main class="mt-20">
+    <p class="py-2 px-4 tracking-wide">ようこそ! POSSE1:3.0期生 塚越雄真さん</p>
+    <section class="mt-2 w-3/5 mx-auto">
+      <div class="my-4">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-md shadow-xl">リアルイベント</button>
+        <button class="bg-white hover:bg-gray-200 font-bold py-2 px-2 rounded-md shadow-xl">必須イベント</button>
+        <button class="bg-white hover:bg-gray-200 font-bold py-2 px-2 rounded-md shadow-xl">所属情報登録</button>
+      </div>
+      <div class="my-8">
+        <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-2 rounded-md shadow-xl">全て</button>
+        <button class="bg-white hover:bg-gray-200 font-bold py-2 px-2 rounded-md shadow-xl">参加</button>
+        <button class="bg-white hover:bg-gray-200 font-bold py-2 px-2 rounded-md shadow-xl">不参加</button>
+        <button class="bg-white hover:bg-gray-200 font-bold py-2 px-2 rounded-md shadow-xl">提出済み</button>
+        <button class="bg-white hover:bg-gray-200 font-bold py-2 px-2 rounded-md shadow-xl">未回答</button>
+      </div>
+
+      <p class="font-bold ">一覧</p>
+      <h4 class="font-bold mt-2">該当するイベントがありません</h4>
+    </section>
+
+    <section>
+      <div class="flex absolute bottom-0 w-2/4 left-1/4">
+        <div class="bg-blue-500 py-4 w-3/4 text-center">
+          <p class="text-white font-bold"><i class="fa-solid fa-calendar-days px-2"></i>参加予約(未回答)</p>
+        </div>
+        <div class="bg-green-400 py-4 w-3/4 text-center">
+          <p class="text-white font-bold"><i class="fa-regular fa-circle-check px-2"></i>今日の出欠</p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
